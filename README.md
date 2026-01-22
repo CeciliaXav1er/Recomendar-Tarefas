@@ -1,4 +1,7 @@
 # Recomendar-Tarefas
+
+_Note: This project was developed as part of a university course in Brazil, so the source code and interface are in Portuguese._
+
 Este projeto é uma aplicação de console desenvolvida em C para auxiliar estudantes de programação a praticarem tópicos específicos. O sistema funciona como um gerenciador de banco de questões que utiliza um algoritmo de filtragem para recomendar o "próximo exercício" ideal para o usuário.
 
 **Principais Diferenciais:**
@@ -11,3 +14,4 @@ Este projeto é uma aplicação de console desenvolvida em C para auxiliar estud
   
   **4.)** Persistência Híbrida: Utiliza arquivos binários (.dat) para alta performance e segurança no armazenamento local, e exporta relatórios em .csv para análise externa.
   
+
