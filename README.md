@@ -1,17 +1,38 @@
-# Recomendar-Tarefas
+#  Study Recommendation System ("Próximo Exercício")
 
-_Note: This project was developed as part of a university course in Brazil, so the source code and interface are in Portuguese._
+A CLI (Command Line Interface) application developed in C to manage and recommend programming exercises. The system helps students practice specific topics based on their difficulty level and study history.
 
-Este projeto é uma aplicação de console desenvolvida em C para auxiliar estudantes de programação a praticarem tópicos específicos. O sistema funciona como um gerenciador de banco de questões que utiliza um algoritmo de filtragem para recomendar o "próximo exercício" ideal para o usuário.
+> *Note: This project was developed as part of a university course in Brazil, so the source code and user interface are originally in Portuguese.*
 
-**Principais Diferenciais:**
+##  Features
 
-  **1.)** Recomendação Inteligente: Filtra exercícios por nível de dificuldade (1-5) e por tags técnicas (ex: Alocação Dinâmica, Manipulação de Arquivos, Recursão).
-  
-  **2.)** Gestão de Dados (CRUD): Permite ao administrador cadastrar, listar, buscar e excluir tanto tarefas quanto usuários.
-  
-  **3.)** Histórico de Progresso: O sistema memoriza quais atividades o usuário já realizou para garantir que as recomendações sejam sempre inéditas.
-  
-  **4.)** Persistência Híbrida: Utiliza arquivos binários (.dat) para alta performance e segurança no armazenamento local, e exporta relatórios em .csv para análise externa.
-  
+The system features robust binary data persistence and CSV reporting:
 
+- **Authentication System:**
+  - Role-based access (Admin vs. Student).
+  - Secure login validation.
+- **Smart Recommendation Engine:**
+  - Suggests exercises based on **Category** (e.g., Pointers, Structs) and **Difficulty (1-5)**.
+  - History tracking to ensure users receive new challenges.
+- **Task Management (CRUD):**
+  - Admins can Create, Read, Update, and Delete tasks and users.
+  - Support for multiple tags per task.
+- **Data Persistence & Reporting:**
+  - Uses binary files (`.dat`) for the local database (Users, Tasks, History).
+  - Exports reports to `.csv` format for external analysis.
+
+##  Tech Stack
+
+- **Language:** C 
+- **Architecture:** Modular design (`.c` / `.h` separation).
+- **Data Handling:** Binary file manipulation (`fread`/`fwrite`) and text file generation.
+- **Build System:** Makefile included for automation.
+
+##  How to Run
+
+Ensure you have a C compiler (like `gcc`) and `make` installed.
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/study-recommendation-system.git](https://github.com/your-username/study-recommendation-system.git)
+   cd study-recommendation-system
