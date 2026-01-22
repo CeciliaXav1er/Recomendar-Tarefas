@@ -3,11 +3,11 @@ Este projeto é uma aplicação de console desenvolvida em C para auxiliar estud
 
 **Principais Diferenciais:**
 
-  **1.)**Recomendação Inteligente: Filtra exercícios por nível de dificuldade (1-5) e por tags técnicas (ex: Alocação Dinâmica, Manipulação de Arquivos, Recursão).
+  **1.)** Recomendação Inteligente: Filtra exercícios por nível de dificuldade (1-5) e por tags técnicas (ex: Alocação Dinâmica, Manipulação de Arquivos, Recursão).
   
-  **2.)**Gestão de Dados (CRUD): Permite ao administrador cadastrar, listar, buscar e excluir tanto tarefas quanto usuários.
+  **2.)** Gestão de Dados (CRUD): Permite ao administrador cadastrar, listar, buscar e excluir tanto tarefas quanto usuários.
   
-  **3.)**Histórico de Progresso: O sistema memoriza quais atividades o usuário já realizou para garantir que as recomendações sejam sempre inéditas.
+  **3.)** Histórico de Progresso: O sistema memoriza quais atividades o usuário já realizou para garantir que as recomendações sejam sempre inéditas.
   
-  **4.)**Persistência Híbrida: Utiliza arquivos binários (.dat) para alta performance e segurança no armazenamento local, e exporta relatórios em .csv para análise externa.
+  **4.)** Persistência Híbrida: Utiliza arquivos binários (.dat) para alta performance e segurança no armazenamento local, e exporta relatórios em .csv para análise externa.
   
